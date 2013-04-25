@@ -11,14 +11,14 @@ The major focus is on multithreading (using pthreads), socket programming, and f
 Building and using
 ------------------
 To build the server, just invoke gcc with the pthread library flag.
-'''bash
+```bash
 gcc -lpthread http_server.c
-'''
+```
 
 and then start the server by calling
-'''bash
+```bash
 ./a.out
-'''
+```
 
 The server has started. Fire up your browser and point it towards http://127.0.0.1:8181 and see it in action.
 
